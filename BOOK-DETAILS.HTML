@@ -1,0 +1,45 @@
+<button class="btn btn-primary rounded-circle shadow" id="scrollTopBtn">
+    <i class="fas fa-arrow-up"></i>
+</button>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    
+    <button class="btn btn-primary rounded-circle shadow" id="scrollTopBtn">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    
+    <div class="modal fade" id="bookDetailsModal" tabindex="-1" aria-labelledby="bookDetailsModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="bookTitleModal">Book Title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body row">
+            <div class="col-md-4 text-center">
+                <img id="bookImageModal" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTsAcx5eZRCJF__PbarAoT1Zxj7Qpg7Zhidw&s" alt="Book Cover" class="img-fluid rounded shadow-sm mb-3">
+            </div>
+            <div class="col-md-8">
+                <p class="mb-2"><strong>Author:</strong> <span id="bookAuthorModal"></span></p>
+                <p class="mb-2"><strong>Rating:</strong> <span id="bookRatingModal"></span></p>
+                <p class="mb-2"><strong>Price:</strong> <span id="bookPriceModal"></span></p>
+                <p class="mb-2"><strong>Category:</strong> <span id="bookCategoryModal"></span></p>
+                <hr>
+                <h6 class="text-primary mt-4">About the Book</h6>
+                <p id="bookDescriptionModal" class="text-muted"></p>
+                
+                <h6 class="text-secondary mt-4">About the Author</h6>
+                <p id="authorDescriptionModal" class="text-muted small"></p>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <a href="#" class="btn btn-primary" id="buyNowLink">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </body>
+</html>
+</body>
+</html>
